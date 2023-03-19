@@ -1,0 +1,31 @@
+body{background-color: aqua;}
+
+.item-description {
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.item-completed:checked + .item-description {
+    background-color: yellowgreen;
+    text-decoration: line-through;
+}
+
+#add {
+    padding: 8px 14px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(212, 32, 92);
+    cursor: pointer;
+    margin-left: 55px;
+}
+
+.item {
+   display: flex;
+   margin-left: 50px;
+}
+
+h1{
+    margin-left: 60px;
+    color:rgb(212, 49, 104)
+}
